@@ -14,6 +14,9 @@ const InputForm = ({ filters, onFilterChange }) => {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <TextField
+          sx={{
+            color: 'white',
+          }}
           label="Possesseur du patrimoine"
           name="possesseur"
           value={filters.possesseur}
@@ -23,6 +26,9 @@ const InputForm = ({ filters, onFilterChange }) => {
       </Grid>
       <Grid item xs={6}>
         <TextField
+          sx={{
+            color: 'white',
+          }}
           label="Date de début"
           type="date"
           name="dateDebut"
@@ -34,6 +40,9 @@ const InputForm = ({ filters, onFilterChange }) => {
       </Grid>
       <Grid item xs={6}>
         <TextField
+          sx={{
+            color: 'white',
+          }}
           label="Date de fin"
           type="date"
           name="dateFin"
